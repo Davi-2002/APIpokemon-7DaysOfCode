@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0637a1dd-f379-4fb4-b577-65d2df6bc769" alt="7DaysOfCode">
+</div>
+
+
 ## Descrição
 Consumir a PokéAPI (Pokémon API) utilizando apenas a linguagem C#, listar os Pokémons e permitir ao usuário escolher um Pokémon para adoção, estilo Tamagotchi.
 
