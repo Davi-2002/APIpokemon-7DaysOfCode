@@ -1,11 +1,14 @@
+## Descrição
+Consumir a PokéAPI (Pokémon API) utilizando apenas a linguagem C#, listar os Pokémons e permitir ao usuário escolher um Pokémon para adoção, estilo Tamagotchi.
+
 ## Dia 1
-Iniciar uma aplicação back-end em C#, consumindo a API do Pokémon. Desenvolver uma funcionalidade onde o jogador poderá acessar uma lista de opções de espécies de pokémons e visualizar suas características para facilitar sua escolha antes da adoção.
+Iniciando uma aplicação back-end em C#, consumindo a API do Pokémon. Desenvolvendo uma funcionalidade onde o jogador poderá selecionar um dos pokémons e visualizar suas características após a adoção.
 
 ## Dia 2
-Parsear a resposta obtida no primeiro dia para extrair as informações desse JSON e exibi-las de maneira organizada.
+Parseando a resposta obtida no primeiro dia para extrair as informações desse JSON e exibindo de maneira organizada.
 
 ## Dia 3
-Trabalhar a saída de dados através da construção de um menu interativo, com opções e mensagens divertidas para o usuário.
+Trabalhando com a saída de dados através da construção de um menu interativo, com opções e mensagens divertidas para o usuário.
 
 ## Tecnologias Utilizadas
 - C#
