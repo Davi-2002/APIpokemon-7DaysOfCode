@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIpokemon - 7DaysOfCode", "APIpokemon - 7DaysOfCode\APIpokemon - 7DaysOfCode.csproj", "{6E92EB13-9B46-48EA-A269-A5F66385490C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E92EB13-9B46-48EA-A269-A5F66385490C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E92EB13-9B46-48EA-A269-A5F66385490C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E92EB13-9B46-48EA-A269-A5F66385490C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E92EB13-9B46-48EA-A269-A5F66385490C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A88C8CFC-DE91-4C15-9F7A-252C6C3A8A1A}
+	EndGlobalSection
+EndGlobal
