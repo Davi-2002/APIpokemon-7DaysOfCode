@@ -1,7 +1,7 @@
 ﻿using RestSharp;
 using System.Text.Json;
+using APIpokemon___7DaysOfCode.Model;
 
-Exibir.Menu();
 
 public static class Exibir
 {
@@ -14,7 +14,7 @@ public static class Exibir
         Console.WriteLine(" ______   ______     __  __     ______     __    __     ______     __   __    \r\n/\\  == \\ /\\  __ \\   /\\ \\/ /    /\\  ___\\   /\\ \"-./  \\   /\\  __ \\   /\\ \"-.\\ \\   \r\n\\ \\  _-/ \\ \\ \\/\\ \\  \\ \\  _\"-.  \\ \\  __\\   \\ \\ \\-./\\ \\  \\ \\ \\/\\ \\  \\ \\ \\-.  \\  \r\n \\ \\_\\    \\ \\_____\\  \\ \\_\\ \\_\\  \\ \\_____\\  \\ \\_\\ \\ \\_\\  \\ \\_____\\  \\ \\_\\\\\"\\_\\ \r\n  \\/_/     \\/_____/   \\/_/\\/_/   \\/_____/   \\/_/  \\/_/   \\/_____/   \\/_/ \\/_/ \r\n                                                                              ");
         Console.WriteLine("\nSeja bem vindo! qual é o seu nome?");
         nome = Console.ReadLine()!;
-        
+
         if (!string.IsNullOrEmpty(nome))
         {
             Console.WriteLine($"\nPrazer {nome}! espero que esteja bem ^^");
@@ -63,7 +63,7 @@ public static class Exibir
         {
             Console.WriteLine("você não colocou seu nome :(");
         }
-        
+
     }
 
     private static void Adotar()
@@ -118,7 +118,7 @@ public static class Exibir
                     Thread.Sleep(3000);
                 }
             }
- 
+
         }
         else
         {
@@ -133,11 +133,11 @@ public static class Exibir
         Console.WriteLine("ainda não implementado");
         Thread.Sleep(2000);
     }
-        
+
     private static void SaberMais()
     {
         Console.Clear();
-        
+
         var client = new RestClient($"https://pokeapi.co/api/v2/pokemon/{pokemon}");
         var request = new RestRequest("", Method.Get);
         var response = client.Execute(request);
@@ -165,7 +165,7 @@ public static class Exibir
         Console.Clear();
         Console.WriteLine($"Boa {nome}! o {pokemon} agora é seu! cuide bem dele!");
 
-        switch(pokemon)
+        switch (pokemon)
         {
             case "espeon":
                 Console.WriteLine(@"                                                
@@ -258,38 +258,5 @@ public static class Exibir
 
         Console.Write("\naperte qualquer tecla para voltar ao menu!");
         Console.ReadKey();
-    }
-}
-
-public class Mascote
-{
-    public string? name { get; set; }
-    public int weight { get; set; }
-    public int height { get; set; }
-    public List<Ability>? abilities { get; set; }
-
-    public void ExibirBichin()
-    {
-
-        Console.WriteLine("----------------------------------");
-        Console.WriteLine($"nome: {name}");
-        Console.WriteLine($"peso: {weight}");
-        Console.WriteLine($"altura: {height}");
-        Console.WriteLine($"habilidades: ");
-        abilities!.ForEach(item => Console.WriteLine(item.ability!.name!.ToUpper()));
-
-        Console.WriteLine("----------------------------------");
-
-    }
-
-}
-
-public class Ability
-{
-    public abilityName? ability { get; set; }
-
-    public class abilityName
-    {
-        public string? name { get; set; }
     }
 }
