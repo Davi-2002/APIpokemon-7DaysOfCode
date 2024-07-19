@@ -248,13 +248,11 @@ public static class Exibir
         Nomes.mascote = Nomes.pokemon;
 
         Random random = new Random();
-        Status.fome = random.Next(0, 11);
+        Status.fome = random.Next(11);
 
-        random = new Random();
-        Status.humor = random.Next(0, 11);
-  
-        random = new Random();
-        Status.sono = random.Next(0, 11);
+        Status.humor = random.Next(11);
+
+        Status.sono = random.Next(11);
 
 
         Console.Write("\nAperte qualquer tecla para voltar ao menu!");
